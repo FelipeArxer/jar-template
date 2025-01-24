@@ -1,16 +1,30 @@
-# Compiled class file
+# Eclipse IDE files
+*.classpath
+*.factorypath
+*.loadpath
+*.project
+*.metadata/
+*.settings/
+
+# VS Code files
+*.vscode/
+
+# META-INF folder
+**/META-INF/
+
+# Maven build folder
+**/target/
+
+# Java build folder
+**/bin/
+
+# Compiled java files
 *.class
 
 # Log file
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -18,7 +32,3 @@
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
